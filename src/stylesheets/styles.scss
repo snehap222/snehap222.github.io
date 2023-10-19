@@ -36,15 +36,25 @@ a {
   right: 0;
 }
 
-.jobs .item {
+.jobs .sidebarbox {
   border: 3px solid transparent;
 }
 
-.jobs .item:hover {
+.jobs .sidebarbox:hover {
   border: 3px solid rgb(208, 208, 236);
 }
 
-#sidebarbox {
+.jobs .sidebarboxmain {
+  border: 3px solid transparent;
+}
+
+.jobs .sidebarboxmain:hover {
+  border: 3px solid rgb(144, 144, 189);
+}
+
+
+
+.sidebarbox {
   width:197px;
 	height:27px;
 	margin:20px;
@@ -53,7 +63,7 @@ a {
 	border-radius: 28px;
 }
 
-#sidebarboxcurrent {
+.sidebarboxcurrent {
   border: 3px solid transparent;
   width:197px;
 	height:27px;
@@ -63,23 +73,29 @@ a {
 	border-radius: 28px;
 }
 
-#sidebarboxmain {
-  border: 3px solid transparent;
-  width:200px;
-	height:30px;
+.sidebarboxmain {
+  width:197px;
+	height:27px;
 	margin:20px;
 	padding:10px;
-	background: rgb(208, 208, 236);
-	border-radius: 25px;
+	background: rgb(144, 144, 189);
+	border-radius: 28px;
 }
 
 #divmain {
+  top: 0;
+  left: 0;
   display: inline-block;
+  background: rgb(208, 208, 236);
 }
 
 #divsidebar {
   vertical-align: top;
+  position: fixed;
+  top: 0;
+  right: 0;
   display: inline-block;
+  background: rgb(249, 242, 240);
 }
 
 .content {
