@@ -10,10 +10,19 @@ th {
 
 h1 {
   color: rgb(101, 101, 147);
+  font-size: 50px;
 }
 
 h2 {
   color: rgb(208, 208, 236);
+}
+
+li {
+  color: rgb(208, 208, 236);
+}
+
+ul {
+  padding-right: 5px;
 }
 
 a {
@@ -62,30 +71,30 @@ a {
 
 .sidebarbox {
   width:197px;
-	height:27px;
-	margin:20px;
-	padding:10px;
-	background: rgb(144, 144, 189);
-	border-radius: 28px;
+  height:27px;
+  margin:20px;
+  padding:10px;
+  background: rgb(144, 144, 189);
+  border-radius: 28px;
 }
 
 .sidebarboxcurrent {
   border: 3px solid transparent;
   width:197px;
-	height:27px;
-	margin:20px;
-	padding:10px;
-	background: rgb(144, 144, 189);
-	border-radius: 28px;
+  height:27px;
+  margin:20px;
+  padding:10px;
+  background: rgb(144, 144, 189);
+  border-radius: 28px;
 }
 
 .sidebarboxmain {
   width:197px;
-	height:27px;
-	margin:20px;
-	padding:10px;
-	background: rgb(144, 144, 189);
-	border-radius: 28px;
+  height:27px;
+  margin:20px;
+  padding:10px;
+  background: rgb(144, 144, 189);
+  border-radius: 28px;
 }
 
 #divmain {
@@ -129,6 +138,8 @@ a {
    width: 75%;
    height: 300px;
    position: relative;
+   margin-top: 30px;
+   margin-bottom: 30px;
 }
 
 .flipcard .card.flipped {
@@ -140,6 +151,7 @@ a {
   height: 100%;
   transform-style: preserve-3d;
   transition: 0.5s;
+  border-radius: 10px;
 }
 
 .flipcard .card .side {
@@ -150,15 +162,24 @@ a {
   box-sizing: border-box;
   z-index: 2;
   backface-visibility: hidden;
-  box-shadow: 0 0 10px rgba(0,0,0,60%);
+  box-shadow: 0 0 10px rgba(248, 248, 248, 60%);
   overflow: auto;
 }
 
 .flipcard .card .back {
   background:  rgb(101, 101, 147);
+  border-radius: 10px;
   transform:rotateX(-180deg);
 }
 
 .flipcard .card .front {
+  border-radius: 10px;
   background-color:  rgb(101, 101, 147);
 }
+
+.textbox{
+  padding-left: auto;
+  padding-right: auto;
+}
+
+
