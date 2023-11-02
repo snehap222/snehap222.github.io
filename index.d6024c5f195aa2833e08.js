@@ -1,1 +1,0 @@
-(()=>{var e,s;e=document.getElementById("homePageHeader"),s=e.offsetTop,window.onscroll=function(){window.pageYOffset>s?e.classList.add("sticky"):e.classList.remove("sticky")}})();
